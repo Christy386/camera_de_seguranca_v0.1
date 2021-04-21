@@ -1,0 +1,47 @@
+/* Fix user-agent */
+
+html {
+    font-weight: 800;
+    -webkit-font-smoothing: antialiased;
+    font-size: 300%;
+}
+  
+html, input {
+    font-family: 'Londrina Solid', cursive;
+    background-color: #685f5f;
+}
+  
+body {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+div {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction:row;
+    margin-top:20px;
+    margin-bottom: 20px;
+}
+  
+button {
+    font-family: 'Londrina Solid', cursive;
+    font-size: 100%;
+    padding-left: 5%;
+    padding-right: 5%;
+    border-radius: 15px;
+    font-weight: 500;
+
+    margin-left: 50px;
+    margin-right: 50px;
+}
+input {
+    font-size: 100%;
+    border-radius: 15px;
+    padding-left: 2%;
+    padding-right: 2%;
+    font-weight: 800;
+}
+  

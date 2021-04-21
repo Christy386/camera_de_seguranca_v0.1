@@ -1,0 +1,44 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    
+    <title>Cameras de segurança</title>
+    <meta charset="UTF-8">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Londrina+Solid:wght@300&display=swap" rel="stylesheet">
+    <title>TCC 3.0</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+
+</head>
+<body>
+
+    <div id="app">
+
+        <container>
+
+            <div ><button v-if="update_b" V-on:click="B_update">update</button></div>
+            
+            <div style="margin-bottom: 0;">
+                <img v-bind:src= "img_src1" style="width:40vw; height:49vh">
+                <img v-bind:src= "img_src2" style="width:40vw; height:49vh">
+            </div>
+
+            <div style="margin-top: 0;">
+                <img v-bind:src= "img_src3" style="width:40vw; height:49vh">
+                <img v-bind:src= "img_src4" style="width:40vw; height:49vh">
+            </div>
+
+        </container>
+
+    </div>
+
+    <script>
+        //const img = document.querySelector('img');
+
+    </script>
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="./main.js"></script>
+    <script src="./Vue.js"></script>
+</body>
+</html>
